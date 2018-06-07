@@ -1,0 +1,4 @@
+<div class="addtodo-container">
+    <input type="text" placeholder="Todo" class="addtodo-input" (keyup)="setValidity(newTodoInput.value)" (keydown.enter)="addNewTodo(newTodoInput.value)"
+        #newTodoInput />
+</div>
